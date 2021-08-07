@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+#pepper-container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 300px;
+  /* max-height: 350px; */
+  padding: 0 30px;
+  width: 100%;
+  text-align: end;
+  text-transform: uppercase;
+	background: url(./assets/chili.jpeg);
+  background-size: 40vw;
+	-webkit-background-clip: text;
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+  color: transparent;
+  font-family: 'Paytone One', sans-serif;
+}
+
+#intro-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  text-align: end;
+  padding: 0 30px;
+}
+
+#author {
+  text-align: end;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4vw;
+  padding: 0 30px;
+  letter-spacing: 20px;
+}
+
+#video {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#thank-you {
+  font-size: 5vw;
+  margin-bottom: 30px;
+}
+
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contacts a {
+  color: black;
+}
+
+#contacts p {
+  margin: 5px 10px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 30vw;
+  }
+
+  #thank-you {
+    font-size: 10vw;
+  }
+}
