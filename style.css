@@ -69,7 +69,7 @@ h1 {
 #video {
   min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
